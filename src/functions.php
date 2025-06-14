@@ -3,9 +3,7 @@
 function generateVerificationCode(): string
 {
   return (string) random_int(100000, 999999);
-
 }
-
 
 
 function sendVerificationEmail(string $email, string $code): bool
